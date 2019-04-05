@@ -9,11 +9,13 @@
       alert('Let\'s party...');
       var number = parseInt(prompt('How long \'till the party? '));
 
-      for (var n = number; n <= number ; number = n - 1){
-        console.log(number);
-        console.log('PARTY TIME');
+      for (var party = number; party >= 1 ; party = party - 1){
+        console.log(party);
       }
-      // console.log('PARTY TIME');
+      if (number < 1){
+        console.log('PARTY NOW!!!');
+      }
+      console.log('PARTY TIME!!!');
     </script>
   </body>
 </html>
